@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<title>Mijn Dashboard</title>
+<style>
+    body {
+    background-image: url('Gemini.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+body {
+    font-family: Arial, sans-serif;
+    
+    padding: 30px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    gap: 20px;
+}
+
+.tegel {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    text-decoration: none;
+    color: black;
+}
+
+.tegel img {
+    width: 80px;
+    height: 80px;
+}
+</style>
+</head>
+<body>
+
+<h1>Favorieten</h1>
+
+<div class="container">
+    <a class="tegel" href="https://teams.microsoft.com">
+        <img src="teams.png">
+        <p>Microsoft Teams</p>
+    </a>
+
+    <a class="tegel" href="https://ozhw.zportal.nl/app/">
+        <img src="zermelo.jpg">
+        <p>Zermelo</p>
+    </a>
+
+    <a class="tegel" href="https://ozhw.magister.net/magister/#/vandaag">
+        <img src="magister.png">
+        <p>Magister</p>
+    </a>
+</div>
+
+</body>
+</html>
+
